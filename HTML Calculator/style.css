@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#shape{
+    width: 400px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+#display{
+    width: 94%;
+    height: 50px;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+#buttonsRow{
+width: 100%;
+height: auto; 
+/* recalculate later*/
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.optionButton{
+width: 15%;
+height: 30px;
+border: 1px white solid;
+color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+.numPadRow{
+    width: 24%;
+    height: auto;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
