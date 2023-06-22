@@ -38,12 +38,20 @@ justify-content: space-between;
 .optionButton{
 width: 15%;
 height: 30px;
+background-color: blue;
 border: 1px white solid;
 color: white;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
+cursor: pointer;
+}
+
+.optionButton:hover{
+    border: 2px red solid;
+color: yellow;
+font-weight: bold;
 }
 
 .numPadRow{
